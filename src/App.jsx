@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "./assets/Banner.jpg";
+import mobBanner from './assets/mobBanner.jpg'
 import { Link } from "react-router";
 
 const App = () => {
@@ -51,8 +52,11 @@ const App = () => {
           </svg>
         </div>
       </nav>
-      <div className=" w-full ">
+      <div className=" hidden sm:block w-full ">
         <img className=" object-cover" src={banner} alt="banner" />
+      </div>
+      <div className=" block sm:hidden w-full ">
+        <img className=" object-cover" src={mobBanner} alt="banner" />
       </div>
 
       {/* "QUALITY SECTION" */}
@@ -182,7 +186,10 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className=" my-10">
+
+      {/* "About us" */}
+
+      <div className=" my-10 mx-4 sm:mx-0">
         <h3 className=" text-center font-bold text-gray-700 text-2xl">
           About Us
         </h3>
@@ -220,9 +227,9 @@ const App = () => {
       {/* "Footer" */}
 
       <hr className="w-full h-[1.5px] bg-gray-300 " />
-      <div className=" grid grid-cols-3  mx-7 pb-5">
+      <div className=" grid grid-cols-1  ml-10 gap-8  sm:grid-cols-3  sm:mx-7 pb-5">
         <div className="   col-span-1 ">
-          <div className=" flex flex-col  ml-6">
+          <div className=" flex flex-col  sm:ml-6">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
