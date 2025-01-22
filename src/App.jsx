@@ -400,7 +400,7 @@ const App = () => {
           <div className=" flex flex-col">
             <h1 className=" font-medium text-xl  pt-5">Opening Hours</h1>
             <div className=" font-light mt-3">
-              <p>Tue - Sun : 10.00am - 06.00pm</p>
+              <p>Mon - Sun : 10.00am - 06.00pm</p>
               <p>Monday : Closed </p>
             </div>
 
