@@ -8,7 +8,7 @@ const App = () => {
     <div className=" max-h-full w-full bg-gray-100 relative	">
       <Link to="https://wa.me/918717000084">
       
-      <div className=" fixed bottom-12 right-12 bg-white">
+      <div className=" fixed bottom-12 right-12 rounded-full bg-gray-100">
         <svg
           width="45px"
           height="45px"
