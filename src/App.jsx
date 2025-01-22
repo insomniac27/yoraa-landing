@@ -235,7 +235,7 @@ const App = () => {
             </h1>
             <p>
               Yora, a fervent admirer of the globally evolving apparel market
-              initiated in 2015. The business is skilled at producing,
+              initiated in 2020. The business is skilled at producing,
               supplying, and exporting clothing by bringing your ideas to life
               via fabricating, printing, and customising. We customize with our
               expertise as per exquisite prints and designs based on individual
