@@ -56,12 +56,12 @@ const App = () => {
       </div>
 
       {/* "QUALITY SECTION" */}
-      <div className=" my-12 ">
+      <div className=" flex flex-col  my-12 ">
         <div className=" text-center font-bold text-gray-600 text-3xl">
           <h1>Since 2020</h1>
           <h1 className=" mt-1">A Quality Apparel Manufacturer</h1>
         </div>
-        <div className=" flex flex-row justify-evenly text-center my-6">
+        <div className=" flex flex-col sm:flex-row gap-3 justify-evenly text-center my-6">
           <div className=" flex flex-col gap-6 justify-center items-center">
             <div>
               <svg
@@ -200,7 +200,7 @@ const App = () => {
               specifications, preferences, and wants.
             </p>
             <p>
-              Under the supervision of our mentor – Mr. Abhishek Kaushik, we can
+              Under the supervision of our mentor – Mr. Rithik Mahajan, we can
               fulfill the diverse requirements of our clients efficiently. With
               his sharp business acumen and domain expertise, we have served
               more than 200 startups successfully, from initial sketch and
