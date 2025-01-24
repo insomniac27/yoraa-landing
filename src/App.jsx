@@ -6,8 +6,8 @@ import { Link } from "react-router";
 const App = () => {
   return (
     <div className=" max-h-full w-full bg-gray-100 relative	">
+      {/* "Whatsapp fixed logo" */}
       <Link to="https://wa.me/918717000084">
-      
       <div className=" fixed bottom-12 right-12 rounded-full bg-gray-100">
         <svg
           width="45px"
@@ -41,6 +41,7 @@ const App = () => {
         </svg>
       </div>
       </Link>
+
       <nav className=" w-full">
         <div className=" flex justify-center items-center  ">
           <svg
@@ -262,7 +263,8 @@ const App = () => {
       {/* "Footer" */}
 
       <hr className="w-full h-[1.5px] bg-gray-300 " />
-      <div className=" grid grid-cols-1  ml-10 gap-8  sm:grid-cols-3  sm:mx-7 pb-5">
+      
+      <footer className=" grid grid-cols-1  ml-10 gap-8  sm:grid-cols-3  sm:mx-7 pb-5">
         <div className="   col-span-1 ">
           <div className=" flex flex-col  sm:ml-6">
             <div>
@@ -369,7 +371,7 @@ const App = () => {
                   </svg>
                 </div>
                 <Link to="Hello@yoraapparelsprivatelimited.com">
-                  Hello@yoraapparelsprivatelimited.com{" "}
+                  Hello@yoraapparelsprivatelimited.com
                 </Link>
               </li>
               <li className=" flex items-center">
@@ -401,7 +403,6 @@ const App = () => {
             <h1 className=" font-medium text-xl  pt-5">Opening Hours</h1>
             <div className=" font-light mt-3">
               <p>Mon - Sun : 10.00am - 06.00pm</p>
-              <p>Monday : Closed </p>
             </div>
 
             <h1 className=" font-medium text-xl  pt-5 pb-3">Follow Us</h1>
@@ -501,7 +502,12 @@ const App = () => {
             </ul>
           </div>
         </div>
-      </div>
+
+
+      </footer>
+
+      <hr className="mx-auto w-3/4 h-[1.5px] bg-gray-300" />
+      <p className=" text-center py-4 text-lg  text-gray-500">Copyright © 2025 Yoraa, All rights reserved. Designed & Developed by Yoraa</p>
     </div>
   );
 };
