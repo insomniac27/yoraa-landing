@@ -507,7 +507,7 @@ const App = () => {
       </footer>
 
       <hr className="mx-auto w-3/4 h-[1.5px] bg-gray-300" />
-      <p className=" text-center py-4 text-lg  text-gray-500">Copyright © 2025 Yoraa, All rights reserved. Designed & Developed by Yoraa</p>
+      <p className=" text-center py-4 text-lg  text-gray-500">Copyright © 2025 Yora, All rights reserved. Designed & Developed by Yoraa</p>
     </div>
   );
 };
